@@ -1,0 +1,121 @@
+.sectionHeader {
+    width: 100%;
+    height: 250px;
+    background-color: #2D2D2D;
+    margin-bottom: 30px;
+}
+
+.logoDiv {
+    width: 50%;
+    height: 100px;
+}
+
+.logoDiv img {
+    width: 200px;
+    height: 100px;
+}
+
+.rule {
+    width: 60%;
+    background-color: #E77A2B;
+    height: .1px;
+    border: none;
+    opacity: 0.7;
+}
+
+.headertitle {
+    color: white;
+    text-align: left;
+    padding-left: 370px;
+}
+
+.headertitle h1 {
+    font-weight: 600;
+}
+
+.headerText {
+    width: 60%;
+    color: white;
+    padding-left: 365px;
+    text-align: left;
+}
+
+.headerText p {
+    margin: 20px 0;
+    line-height: 25px;
+}
+
+.dataGrid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+table {
+    border-collapse: collapse;
+    height: 600px;
+    width: 1100px;
+    padding: 0;
+    margin: 0;
+}
+
+tr {
+    padding: 0;
+    margin: 0;
+}
+    
+th {
+    text-align: left;
+    padding: 15px;
+    border: 1px solid #E77A2B;
+    margin: 0;
+}
+    
+td {
+    text-align: left;
+    padding: 15px;
+    border: 1px solid grey;
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    width: 60%;
+    padding-left: 365px;
+    justify-content: center;
+    color: royalblue;
+    cursor: pointer;
+}
+
+.links ul {
+    margin-bottom: 0;
+    display: flex;
+    list-style: none;
+}
+
+.links ul li {
+    padding: 10px;
+}
+
+.status {
+    display: flex;
+    width: 60%;
+    padding-left: 365px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.status ul {
+    display: flex;
+    list-style: none;
+    margin-top: 0;
+}
+
+.status ul li {
+    padding: 10px;
+}
+
+.status ul li img {
+    padding-right: 5px;
+}
